@@ -1,6 +1,7 @@
 expname = blender_paper_lego
-basedir = ./logs
-datadir = ./data/nerf_synthetic/lego
+basedir = ./data/nerf_synthetic/nerf/fox
+datadir = ./data/nerf_synthetic/nerf/fox
+
 dataset_type = blender
 
 no_batching = True

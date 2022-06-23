@@ -164,7 +164,7 @@ def render_path(render_poses, hwf, K, chunk, render_kwargs, gt_imgs=None, savedi
 
         if savedir is not None:
             rgb8 = to8b(rgbs[-1])
-            filename = os.path.join(savedir, '{:03d}.png'.format(i))
+            filename = os.path.join(savedir, '{:03d}.jpg'.format(i))
             imageio.imwrite(filename, rgb8)
 
 
